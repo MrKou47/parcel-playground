@@ -1,0 +1,30 @@
+{
+  "name": "gutenberg-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build src/index.html -d build --no-minify",
+    "start": "parcel src/index.html -d dists --no-source-maps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wordpress/block-editor": "^3.2.3",
+    "@wordpress/block-library": "^2.9.4",
+    "@wordpress/components": "^8.3.2",
+    "@wordpress/editor": "^9.7.4",
+    "@wordpress/element": "^2.8.2",
+    "@wordpress/format-library": "^1.9.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/plugin-transform-react-jsx": "^7.7.0",
+    "@wordpress/babel-preset-default": "^4.6.2",
+    "babel-plugin-inline-json-import": "^0.3.2",
+    "cross-env": "^6.0.3",
+    "cssnano": "4.1.10",
+    "sass": "^1.23.3"
+  }
+}
