@@ -1,5 +1,4 @@
 node_modules
-build
 .cache
-dists
-src.9a83628a.js
+
+*.log

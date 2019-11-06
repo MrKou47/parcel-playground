@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "parcel build src/index.html -d build --no-minify",
-    "start": "parcel src/index.html -d dists --no-source-maps"
+    "build:dev": "NODE_ENV=development parcel build src/index.html -d build --no-minify",
+    "start": "parcel src/index.html -d dists --no-source-maps --no-hmr"
   },
   "keywords": [],
-  "author": "",
+  "author": "mrkou47",
   "license": "ISC",
   "dependencies": {
     "@wordpress/block-editor": "^3.2.3",
@@ -19,12 +19,13 @@
     "@wordpress/format-library": "^1.9.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0-0",
+    "@babel/core": "7.4.5",
     "@babel/plugin-transform-react-jsx": "^7.7.0",
     "@wordpress/babel-preset-default": "^4.6.2",
     "babel-plugin-inline-json-import": "^0.3.2",
     "cross-env": "^6.0.3",
     "cssnano": "4.1.10",
+    "parcel-bundler": "1.12.4",
     "sass": "^1.23.3"
   }
 }
