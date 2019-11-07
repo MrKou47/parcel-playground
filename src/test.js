@@ -4,8 +4,14 @@ import { setting, initialEditorSetting } from './config';
 import { preloadData } from './preload-data';
 
 import '@wordpress/edit-post/build-style/style.css';
-
-console.log(apiFetch);
+import "@wordpress/components/build-style/style.css";
+import "@wordpress/block-editor/build-style/style.css";
+import "@wordpress/nux/build-style/style.css";
+import "@wordpress/block-directory/build-style/style.css";
+import "@wordpress/editor/build-style/style.css";
+import "@wordpress/block-library/build-style/style.css";
+import "@wordpress/edit-post/build-style/style.css";
+import "@wordpress/format-library/build-style/style.css";
 
 apiFetch.use(
   apiFetch.createRootURLMiddleware("http://localhost:1234/wp-json/")

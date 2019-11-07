@@ -7768,6 +7768,149 @@ export const preloadData = {
     },
     "headers": []
   },
+  "\/wp\/v2\/taxonomies?context=edit&per_page=-1": {
+    "body": {
+      "category": {
+        "name": "\u5206\u7c7b\u76ee\u5f55",
+        "slug": "category",
+        "capabilities": {
+          "manage_terms": "manage_categories",
+          "edit_terms": "edit_categories",
+          "delete_terms": "delete_categories",
+          "assign_terms": "assign_categories"
+        },
+        "description": "",
+        "labels": {
+          "name": "\u5206\u7c7b\u76ee\u5f55",
+          "singular_name": "\u5206\u7c7b\u76ee\u5f55",
+          "search_items": "\u641c\u7d22\u5206\u7c7b\u76ee\u5f55",
+          "popular_items": null,
+          "all_items": "\u6240\u6709\u5206\u7c7b\u76ee\u5f55",
+          "parent_item": "\u7236\u7ea7\u5206\u7c7b\u76ee\u5f55",
+          "parent_item_colon": "\u7236\u7ea7\u5206\u7c7b\u76ee\u5f55\uff1a",
+          "edit_item": "\u7f16\u8f91\u5206\u7c7b\u76ee\u5f55",
+          "view_item": "\u67e5\u770b\u5206\u7c7b\u76ee\u5f55",
+          "update_item": "\u66f4\u65b0\u5206\u7c7b\u76ee\u5f55",
+          "add_new_item": "\u6dfb\u52a0\u65b0\u5206\u7c7b\u76ee\u5f55",
+          "new_item_name": "\u65b0\u5206\u7c7b\u76ee\u5f55\u540d",
+          "separate_items_with_commas": null,
+          "add_or_remove_items": null,
+          "choose_from_most_used": null,
+          "not_found": "\u672a\u627e\u5230\u5206\u7c7b\u3002",
+          "no_terms": "\u6ca1\u6709\u5206\u7c7b\u76ee\u5f55",
+          "items_list_navigation": "\u5206\u7c7b\u5217\u8868\u5bfc\u822a",
+          "items_list": "\u5206\u7c7b\u5217\u8868",
+          "most_used": "\u6700\u591a\u4f7f\u7528",
+          "back_to_items": "&larr; \u8fd4\u56de\u5206\u7c7b",
+          "menu_name": "\u5206\u7c7b\u76ee\u5f55",
+          "name_admin_bar": "category"
+        },
+        "types": [
+          "post"
+        ],
+        "show_cloud": true,
+        "hierarchical": true,
+        "rest_base": "categories",
+        "visibility": {
+          "public": true,
+          "publicly_queryable": true,
+          "show_admin_column": true,
+          "show_in_nav_menus": true,
+          "show_in_quick_edit": true,
+          "show_ui": true
+        },
+        "_links": {
+          "collection": [
+            {
+              "href": "http:\/\/wp.preferr.ilovelook.cn\/wp-json\/wp\/v2\/taxonomies"
+            }
+          ],
+          "wp:items": [
+            {
+              "href": "http:\/\/wp.preferr.ilovelook.cn\/wp-json\/wp\/v2\/categories"
+            }
+          ],
+          "curies": [
+            {
+              "name": "wp",
+              "href": "https:\/\/api.w.org\/{rel}",
+              "templated": true
+            }
+          ]
+        }
+      },
+      "post_tag": {
+        "name": "\u6807\u7b7e",
+        "slug": "post_tag",
+        "capabilities": {
+          "manage_terms": "manage_post_tags",
+          "edit_terms": "edit_post_tags",
+          "delete_terms": "delete_post_tags",
+          "assign_terms": "assign_post_tags"
+        },
+        "description": "",
+        "labels": {
+          "name": "\u6807\u7b7e",
+          "singular_name": "\u6807\u7b7e",
+          "search_items": "\u641c\u7d22\u6807\u7b7e",
+          "popular_items": "\u70ed\u95e8\u6807\u7b7e",
+          "all_items": "\u6240\u6709\u6807\u7b7e",
+          "parent_item": null,
+          "parent_item_colon": null,
+          "edit_item": "\u7f16\u8f91\u6807\u7b7e",
+          "view_item": "\u67e5\u770b\u6807\u7b7e",
+          "update_item": "\u66f4\u65b0\u6807\u7b7e",
+          "add_new_item": "\u6dfb\u52a0\u65b0\u6807\u7b7e",
+          "new_item_name": "\u65b0\u6807\u7b7e\u540d",
+          "separate_items_with_commas": "\u591a\u4e2a\u6807\u7b7e\u8bf7\u7528\u82f1\u6587\u9017\u53f7\uff08,\uff09\u5206\u5f00",
+          "add_or_remove_items": "\u6dfb\u52a0\u6216\u5220\u9664\u6807\u7b7e",
+          "choose_from_most_used": "\u4ece\u5e38\u7528\u6807\u7b7e\u4e2d\u9009\u62e9",
+          "not_found": "\u672a\u627e\u5230\u6807\u7b7e\u3002",
+          "no_terms": "\u6ca1\u6709\u6807\u7b7e",
+          "items_list_navigation": "\u6807\u7b7e\u5217\u8868\u5bfc\u822a",
+          "items_list": "\u6807\u7b7e\u5217\u8868",
+          "most_used": "\u6700\u591a\u4f7f\u7528",
+          "back_to_items": "&larr; \u8fd4\u56de\u6807\u7b7e",
+          "menu_name": "\u6807\u7b7e",
+          "name_admin_bar": "post_tag"
+        },
+        "types": [
+          "post"
+        ],
+        "show_cloud": true,
+        "hierarchical": false,
+        "rest_base": "tags",
+        "visibility": {
+          "public": true,
+          "publicly_queryable": true,
+          "show_admin_column": true,
+          "show_in_nav_menus": true,
+          "show_in_quick_edit": true,
+          "show_ui": true
+        },
+        "_links": {
+          "collection": [
+            {
+              "href": "http:\/\/wp.preferr.ilovelook.cn\/wp-json\/wp\/v2\/taxonomies"
+            }
+          ],
+          "wp:items": [
+            {
+              "href": "http:\/\/wp.preferr.ilovelook.cn\/wp-json\/wp\/v2\/tags"
+            }
+          ],
+          "curies": [
+            {
+              "name": "wp",
+              "href": "https:\/\/api.w.org\/{rel}",
+              "templated": true
+            }
+          ]
+        }
+      }
+    },
+    "headers": []
+  },
   "\/wp\/v2\/themes?status=active": {
     "body": [
       {
@@ -7931,6 +8074,127 @@ export const preloadData = {
     "headers": {
       "Link": "<http:\/\/wp.preferr.ilovelook.cn\/?p=28>; rel=\"alternate\"; type=text\/html"
     }
+  },
+  "\/wp\/v2\/users\/me": {
+    "body": {
+      "id": 1,
+      "username": "wordpress",
+      "name": "wordpress",
+      "first_name": "",
+      "last_name": "",
+      "email": "yuan@yzyw-inc.com",
+      "url": "",
+      "description": "",
+      "link": "http:\/\/wp.preferr.ilovelook.cn\/author\/wordpress\/",
+      "locale": "zh_CN",
+      "nickname": "wordpress",
+      "slug": "wordpress",
+      "roles": [
+        "administrator"
+      ],
+      "registered_date": "2019-10-09T03:40:25+00:00",
+      "capabilities": {
+        "switch_themes": true,
+        "edit_themes": true,
+        "activate_plugins": true,
+        "edit_plugins": true,
+        "edit_users": true,
+        "edit_files": true,
+        "manage_options": true,
+        "moderate_comments": true,
+        "manage_categories": true,
+        "manage_links": true,
+        "upload_files": true,
+        "import": true,
+        "unfiltered_html": true,
+        "edit_posts": true,
+        "edit_others_posts": true,
+        "edit_published_posts": true,
+        "publish_posts": true,
+        "edit_pages": true,
+        "read": true,
+        "level_10": true,
+        "level_9": true,
+        "level_8": true,
+        "level_7": true,
+        "level_6": true,
+        "level_5": true,
+        "level_4": true,
+        "level_3": true,
+        "level_2": true,
+        "level_1": true,
+        "level_0": true,
+        "edit_others_pages": true,
+        "edit_published_pages": true,
+        "publish_pages": true,
+        "delete_pages": true,
+        "delete_others_pages": true,
+        "delete_published_pages": true,
+        "delete_posts": true,
+        "delete_others_posts": true,
+        "delete_published_posts": true,
+        "delete_private_posts": true,
+        "edit_private_posts": true,
+        "read_private_posts": true,
+        "delete_private_pages": true,
+        "edit_private_pages": true,
+        "read_private_pages": true,
+        "delete_users": true,
+        "create_users": true,
+        "unfiltered_upload": true,
+        "edit_dashboard": true,
+        "update_plugins": true,
+        "delete_plugins": true,
+        "install_plugins": true,
+        "update_themes": true,
+        "install_themes": true,
+        "update_core": true,
+        "list_users": true,
+        "remove_users": true,
+        "promote_users": true,
+        "edit_theme_options": true,
+        "delete_themes": true,
+        "export": true,
+        "block_lab_edit_block": true,
+        "block_lab_edit_blocks": true,
+        "block_lab_edit_others_blocks": true,
+        "block_lab_publish_blocks": true,
+        "block_lab_read_block": true,
+        "block_lab_read_private_blocks": true,
+        "block_lab_delete_block": true,
+        "administrator": true
+      },
+      "extra_capabilities": {
+        "administrator": true
+      },
+      "avatar_urls": {
+        "24": "http:\/\/2.gravatar.com\/avatar\/eae60811a8ebdc6b8242cdf1542a4ae9?s=24&d=mm&r=g",
+        "48": "http:\/\/2.gravatar.com\/avatar\/eae60811a8ebdc6b8242cdf1542a4ae9?s=48&d=mm&r=g",
+        "96": "http:\/\/2.gravatar.com\/avatar\/eae60811a8ebdc6b8242cdf1542a4ae9?s=96&d=mm&r=g"
+      },
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "http:\/\/wp.preferr.ilovelook.cn\/wp-json\/wp\/v2\/users\/1"
+          }
+        ],
+        "collection": [
+          {
+            "href": "http:\/\/wp.preferr.ilovelook.cn\/wp-json\/wp\/v2\/users"
+          }
+        ]
+      }
+    },
+    "headers": []
+  },
+  "/wp/v2/users/?per_page=-1&who=authors": {
+    "body": [],
+    "headers": []
+  },
+  "/wp/v2/users/?who=authors&per_page=-1": {
+    "body": [],
+    "headers": []
   },
   "\/wp\/v2\/types\/post?context=edit": {
     "body": {
