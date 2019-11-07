@@ -2,10 +2,10 @@
   "name": "gutenberg-playground",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dists/index.html",
   "scripts": {
-    "build:dev": "NODE_ENV=development parcel build src/index.html -d build --no-minify",
-    "start": "parcel src/index.html -d dists --no-source-maps --no-hmr"
+    "build": "parcel build ./src/index.html",
+    "start": "parcel ./src/index.html"
   },
   "keywords": [],
   "author": "mrkou47",
@@ -14,6 +14,7 @@
     "@wordpress/block-editor": "^3.2.3",
     "@wordpress/block-library": "^2.9.4",
     "@wordpress/components": "^8.3.2",
+    "@wordpress/edit-post": "^3.8.5",
     "@wordpress/editor": "^9.7.4",
     "@wordpress/element": "^2.8.2",
     "@wordpress/format-library": "^1.9.3"
@@ -25,7 +26,7 @@
     "babel-plugin-inline-json-import": "^0.3.2",
     "cross-env": "^6.0.3",
     "cssnano": "4.1.10",
-    "parcel-bundler": "1.12.4",
+    "parcel": "^2.0.0-alpha.2.1",
     "sass": "^1.23.3"
   }
 }
