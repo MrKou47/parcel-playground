@@ -3,6 +3,8 @@ import apiFetch from '@wordpress/api-fetch';
 import { setting, initialEditorSetting } from './config';
 import { preloadData } from './preload-data';
 
+import '@wordpress/edit-post/build-style/style.css';
+
 console.log(apiFetch);
 
 apiFetch.use(
